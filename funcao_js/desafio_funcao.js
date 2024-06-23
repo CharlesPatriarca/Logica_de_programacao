@@ -29,36 +29,36 @@ let resultado = saldoRankeada(vitorias, derrotas)
 function saldoRankeada(vitorias, derrotas){
     vitorias = parseInt(prompt("Qual seu saldo de vitórias: "))
     derrotas = parseInt(prompt("Qual seu saldo de derrotas: "))
-    resultado = vitorias - derrotas
-    return resultado
+    saldoVitorias = vitorias - derrotas
+    return saldoVitorias
 }
 
 
 
-if (resultado < 10){
-    console.log(`O herói tem de saldo positivo de ${resultado} vitórias e está no nível Ferro`)
+if (saldoVitorias < 10){
+    console.log(`O herói tem de saldo positivo de ${saldoVitorias} vitórias e está no nível Ferro`)
 }
 
-else if (resultado > 10 && resultado <= 20){
-    console.log(`O herói tem de saldo positivo de ${resultado} vitórias e está no nível Bronze`)
+else if (saldoVitorias > 10 && saldoVitorias <= 20){
+    console.log(`O herói tem de saldo positivo de ${saldoVitorias} vitórias e está no nível Bronze`)
 }
 
-else if (resultado > 20 && resultado <= 50){
-    console.log(`O herói tem de saldo positivo de ${resultado} vitórias e está no nível Prata`)
+else if (saldoVitorias > 20 && saldoVitorias <= 50){
+    console.log(`O herói tem de saldo positivo de ${saldoVitorias} vitórias e está no nível Prata`)
 }
 
-else if (resultado > 50 && resultado <= 80){
-    console.log(`O herói tem de saldo positivo de ${resultado} vitórias e está no nível Ouro`)
+else if (saldoVitorias > 50 && saldoVitorias <= 80){
+    console.log(`O herói tem de saldo positivo de ${saldoVitorias} vitórias e está no nível Ouro`)
 }
 
-else if (resultado > 80 && resultado <= 90){
-    console.log(`O herói tem de saldo positivo de ${resultado} vitórias e está no nível Diamante`)
+else if (saldoVitorias > 80 && saldoVitorias <= 90){
+    console.log(`O herói tem de saldo positivo de ${saldoVitorias} vitórias e está no nível Diamante`)
 }
 
-else if (resultado > 90 && resultado <= 100){
-    console.log(`O herói tem de saldo positivo de ${resultado} vitórias e está no nível Lendário`)
+else if (saldoVitorias > 90 && saldoVitorias <= 100){
+    console.log(`O herói tem de saldo positivo de ${saldoVitorias} vitórias e está no nível Lendário`)
 }
 
 else {
-    console.log(`O herói tem de saldo positivo de ${resultado} vitórias e está no nível Imortal`)
+    console.log(`O herói tem de saldo positivo de ${saldoVitorias} vitórias e está no nível Imortal`)
 }

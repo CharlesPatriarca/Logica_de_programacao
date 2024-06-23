@@ -1,6 +1,6 @@
-let resultado = soma (8,9)
+let saldoVitorias = soma (8,9)
 
-console.log(`O resultado é ${resultado}`)
+console.log(`O resultado é ${saldoVitorias}`)
 
 
 function soma (numA, numB){
