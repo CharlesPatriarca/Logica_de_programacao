@@ -1,5 +1,5 @@
-// JSON - JavaScript Object Notation
-// Chave de valor com o objetivo de transferir dados
+/* JSON - JavaScript Object Notation
+ Chave de valor com o objetivo de transferir dados*/
 
 /*
 let name = "Charles";
